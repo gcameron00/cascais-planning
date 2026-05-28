@@ -1,0 +1,9 @@
+# Friendly aliases for common alternate spellings / URLs.
+/water_sports/*  /water-sports/:splat  301
+/watersports/*   /water-sports/:splat  301
+/restaurants/*   /food/:splat          301
+/eat/*           /food/:splat          301
+/nightlife/*     /entertainment/:splat 301
+/daytrips/*      /excursions/:splat    301
+/day-trips/*     /excursions/:splat    301
+/kids/*          /teens/:splat         301
