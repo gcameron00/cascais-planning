@@ -1,17 +1,167 @@
 <!doctype html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="color-scheme" content="light dark" />
-    <title>Home</title>
-    <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
-    <link rel="stylesheet" href="/assets/css/styles.css">
+    <meta name="description" content="A short, opinionated guide to Cascais, Portugal in June — food, entertainment, excursions, water sports, and things to do with teenagers." />
+    <title>Cascais in June — a tourist's guide</title>
+    <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="/assets/css/styles.css" />
     <script defer src="/assets/js/main.js"></script>
   </head>
   <body>
-    <h1>It works 🎉</h1>
-    <p>This site is deployed using Cloudflare Pages.</p>
-    <p><a href="/about/">About</a></p>
+    <a href="#main" class="skip-link">Skip to content</a>
+
+    <header class="site-header">
+      <div class="container site-header__inner">
+        <a href="/" class="brand">
+          <span class="brand__mark" aria-hidden="true"></span>
+          <span>Cascais in June</span>
+        </a>
+        <button class="nav-toggle" type="button" aria-controls="primary-nav" aria-expanded="false" aria-label="Open menu">
+          <span class="nav-toggle__bars" aria-hidden="true"></span>
+        </button>
+        <nav class="site-nav" id="primary-nav" aria-label="Primary">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/food/">Food</a></li>
+            <li><a href="/entertainment/">Entertainment</a></li>
+            <li><a href="/excursions/">Excursions</a></li>
+            <li><a href="/water-sports/">Water sports</a></li>
+            <li><a href="/teens/">Teens</a></li>
+            <li><a href="/about/">About</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+
+      <section class="hero">
+        <div class="container hero__grid">
+          <div>
+            <p class="eyebrow" data-days-to-june>June in Cascais</p>
+            <h1 class="hero__title">Sun, sardines &amp; the Atlantic — Cascais done well.</h1>
+            <p class="hero__lede">
+              A short, opinionated guide for visitors spending June on Portugal's Estoril coast.
+              Where to eat, where to swim, and what to do when the teenagers say they're bored.
+            </p>
+            <a class="hero__cta" href="#topics">
+              Start exploring
+              <span aria-hidden="true">→</span>
+            </a>
+          </div>
+          <div class="hero__art" role="img" aria-label="Stylised illustration of the Cascais bay with a sailboat at sunset"></div>
+        </div>
+      </section>
+
+      <section class="section" id="topics">
+        <div class="container">
+          <p class="eyebrow">Pick a thread</p>
+          <h2>Six ways to spend your June here</h2>
+          <p class="text-muted" style="max-width: 60ch;">
+            Each section is curated — three to five strong picks per topic, plus the practical info
+            you actually need (booking, hours, how to get there).
+          </p>
+
+          <div class="card-grid" style="margin-top: 2rem;">
+            <a class="topic-card card-link" href="/food/">
+              <h3><span class="card-emoji" aria-hidden="true">🥘</span> Food</h3>
+              <p>Sardines on the grill, fresh seafood at the marina, pastel de nata stops, and where locals actually eat.</p>
+              <span class="topic-card__more">Explore food →</span>
+            </a>
+
+            <a class="topic-card card-link" href="/entertainment/">
+              <h3><span class="card-emoji" aria-hidden="true">🎷</span> Entertainment</h3>
+              <p>Cool Jazz at the citadel, Santos Populares street parties, bars along Largo Luís de Camões.</p>
+              <span class="topic-card__more">Explore entertainment →</span>
+            </a>
+
+            <a class="topic-card card-link" href="/excursions/">
+              <h3><span class="card-emoji" aria-hidden="true">🚉</span> Excursions</h3>
+              <p>Sintra's palaces, the cliffs at Cabo da Roca, a half-day in Lisbon, the Boca do Inferno.</p>
+              <span class="topic-card__more">Explore excursions →</span>
+            </a>
+
+            <a class="topic-card card-link" href="/water-sports/">
+              <h3><span class="card-emoji" aria-hidden="true">🏄</span> Water sports</h3>
+              <p>Beginner surf at Carcavelos, advanced at Guincho, SUP in the bay, sailing out of Marina de Cascais.</p>
+              <span class="topic-card__more">Explore water sports →</span>
+            </a>
+
+            <a class="topic-card card-link" href="/teens/">
+              <h3><span class="card-emoji" aria-hidden="true">🛹</span> For teens</h3>
+              <p>Surf camps, padel courts, escape rooms, beach days, gelato that's worth the queue.</p>
+              <span class="topic-card__more">Things teens like →</span>
+            </a>
+
+            <a class="topic-card card-link" href="/about/">
+              <h3><span class="card-emoji" aria-hidden="true">ℹ️</span> About</h3>
+              <p>What this site is, who it's for, and how to suggest a place we should add.</p>
+              <span class="topic-card__more">About this site →</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--alt">
+        <div class="container">
+          <p class="eyebrow">Quick orientation</p>
+          <h2>What you need to know about June</h2>
+
+          <div class="card-grid">
+            <article class="card">
+              <h3>Weather &amp; sea</h3>
+              <p>Highs 22–26 °C, lows around 15 °C. Sea temperature 17–19 °C — chilly but swimmable. Afternoon winds (the <em>nortada</em>) pick up by 2 pm; mornings are calmest.</p>
+            </article>
+
+            <article class="card">
+              <h3>Festas dos Santos Populares</h3>
+              <p>From mid-June, streets fill with grilled sardines, basil pots, and music. The 12th–13th (Santo António) is Lisbon's night; Cascais joins in across the month.</p>
+            </article>
+
+            <article class="card">
+              <h3>Getting around</h3>
+              <p>The train from Cais do Sodré (Lisbon) takes ~40 minutes. Inside Cascais, walk or rent a bike — the BiCAS scheme is electric and cheap. Driving is for excursions only.</p>
+            </article>
+
+            <article class="card">
+              <h3>What to pack</h3>
+              <p>Light layers — evenings cool quickly by the ocean. A wind shell for Guincho. Reef-safe sunscreen. UV is high even when it's overcast.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="callout callout--info">
+            <p><strong>Heads up.</strong> This is a work-in-progress guide. Picks are being verified locally
+              through June 2026 — check the <a href="/about/">About page</a> for the current status and how to contribute.</p>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="site-footer">
+      <div class="container site-footer__grid">
+        <div>
+          <p><strong>Cascais in June</strong> — a small static guide. Hosted on Cloudflare Pages.</p>
+          <p class="mt-0">Found a mistake or want to suggest a venue? See the <a href="/about/">About page</a>.</p>
+        </div>
+        <nav aria-label="Footer">
+          <ul>
+            <li><a href="/food/">Food</a></li>
+            <li><a href="/entertainment/">Entertainment</a></li>
+            <li><a href="/excursions/">Excursions</a></li>
+            <li><a href="/water-sports/">Water sports</a></li>
+            <li><a href="/teens/">Teens</a></li>
+            <li><a href="/about/">About</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
   </body>
 </html>

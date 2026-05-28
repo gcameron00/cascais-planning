@@ -1,15 +1,128 @@
 <!doctype html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="color-scheme" content="light dark" />
-    <title>About</title>
-    <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
-    <link rel="stylesheet" href="/assets/css/styles.css">
+    <meta name="description" content="About the Cascais in June guide — what it is, who it's for, and how to contribute." />
+    <title>About — Cascais in June</title>
+    <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="/assets/css/styles.css" />
+    <script defer src="/assets/js/main.js"></script>
   </head>
   <body>
-    <h1>About</h1>
-    <p><a href="/">Back home</a></p>
+    <a href="#main" class="skip-link">Skip to content</a>
+
+    <header class="site-header">
+      <div class="container site-header__inner">
+        <a href="/" class="brand">
+          <span class="brand__mark" aria-hidden="true"></span>
+          <span>Cascais in June</span>
+        </a>
+        <button class="nav-toggle" type="button" aria-controls="primary-nav" aria-expanded="false" aria-label="Open menu">
+          <span class="nav-toggle__bars" aria-hidden="true"></span>
+        </button>
+        <nav class="site-nav" id="primary-nav" aria-label="Primary">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/food/">Food</a></li>
+            <li><a href="/entertainment/">Entertainment</a></li>
+            <li><a href="/excursions/">Excursions</a></li>
+            <li><a href="/water-sports/">Water sports</a></li>
+            <li><a href="/teens/">Teens</a></li>
+            <li><a href="/about/">About</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+
+      <section class="page-header">
+        <div class="container">
+          <p class="eyebrow">About</p>
+          <h1>What this is.</h1>
+          <p class="page-header__lede">
+            A small, opinionated guide to Cascais, Portugal during the month of June —
+            written for people spending a week or two on the Estoril coast, not a weekend.
+          </p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container" style="max-width: 60ch;">
+
+          <h2>Who it's for</h2>
+          <p>
+            The default reader is a visiting family with at least one teenager — but the picks work for couples,
+            groups of friends, or a solo trip. The focus is on what's good <em>in June</em> specifically: the festivals,
+            the water temperature, the wind, the long evenings.
+          </p>
+
+          <h2>What it isn't</h2>
+          <ul class="list-tight">
+            <li>An exhaustive directory — there are dozens of restaurants we've left out.</li>
+            <li>A booking service — we link out, but don't take commissions or run a tracker.</li>
+            <li>SEO content — entries are written to be useful, not to rank.</li>
+          </ul>
+
+          <h2>How it's built</h2>
+          <p>
+            Plain HTML, CSS, and a small amount of JavaScript. No framework, no build step, no third-party trackers.
+            The whole site is a few dozen kilobytes — it should load instantly on hotel Wi-Fi or a 4G train ride.
+          </p>
+          <p>
+            Source code lives on <a href="https://github.com/gcameron00/cascais-planning">GitHub</a>.
+            Deployed continuously to Cloudflare Pages on push to <code>main</code>.
+          </p>
+
+          <h2>Status</h2>
+          <p>
+            This is the first build. The structure is complete, and the content is a strong starting draft
+            — but several entries still need local verification. We'll mark each entry "verified June 2026"
+            as we re-check it on the ground.
+          </p>
+
+          <div class="callout">
+            <p><strong>Want to contribute?</strong> Open an issue or a pull request on GitHub —
+              or read the <a href="https://github.com/gcameron00/cascais-planning/blob/main/docs/CONTENT_GUIDE.md">content guide</a>
+              if you'd like to suggest a new entry.</p>
+          </div>
+
+          <h2>Privacy</h2>
+          <p>
+            We don't set cookies, don't track you, and don't embed third-party scripts. Cloudflare may log
+            request metadata at the edge as part of normal hosting — see Cloudflare's policy.
+          </p>
+
+          <h2>Disclaimer</h2>
+          <p>
+            Prices, opening hours and festival dates change. Verify before you make a long trip out of town.
+            Mention us a date here is reasonable but not authoritative.
+          </p>
+
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="site-footer">
+      <div class="container site-footer__grid">
+        <div>
+          <p><strong>Cascais in June</strong> — a small static guide. Hosted on Cloudflare Pages.</p>
+          <p class="mt-0">Found a mistake or want to suggest a venue? Open an issue on GitHub.</p>
+        </div>
+        <nav aria-label="Footer">
+          <ul>
+            <li><a href="/food/">Food</a></li>
+            <li><a href="/entertainment/">Entertainment</a></li>
+            <li><a href="/excursions/">Excursions</a></li>
+            <li><a href="/water-sports/">Water sports</a></li>
+            <li><a href="/teens/">Teens</a></li>
+            <li><a href="/about/">About</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
   </body>
 </html>
